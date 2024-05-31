@@ -1,33 +1,24 @@
-Latvian-pounded keyboard layout for Mac OS X
+Latvian keyboard layout for Mac OS X
 ============================================
 
 Default Latvian Mac OS X keyboard layout with the ounly change `£ <=> #`
-
----
-
-Before:
-
-![latvian](http://yfrog.com/scaled/landing/740/eoey.png "Latvian")
-
-After:
-
-![latvian-pounded](http://yfrog.com/scaled/landing/532/gmxe.png "Latvian-pounded")
 
 Instalation
 -----------
 
 ````terminal
-git clone git://github.com/duksis/Latvian-pounded.keylayout
-mv Latvian-pounded.keylayout/Latvian-pounded.* ~/Library/Keyboard\ Layouts/
-rm -r Latvian-pounded.keylayout
+git clone git://github.com/rzauls/Latvian-pounded.keylayout
+cd Latvian-pounded.keylayout
+sudo cp Latvian-pounded.* ~/Library/Keyboard\ Layouts/
 ````
 
 After executing this in terminal open "System Preferences" -> "Keyboard" -> "Input Sources..."
-select the new input source "Latvian-pounded" and activate it the upper toolbar
 
-![preferences](http://yfrog.com/scaled/landing/736/nvai.png "Preferences")
+Under languages select "Other" and select the new input source "Latvian-pounded".
+
+Activate the layout by either removing all other layouts, or using the top bar selector.
 
 Credits
 -------
 
-Layaut created using [Ukelele](http://scripts.sil.org/ukelele) keyboard layout editor.
+Layout originally forked from [duksis](https://github.com/duksis/Latvian-pounded.keylayout)

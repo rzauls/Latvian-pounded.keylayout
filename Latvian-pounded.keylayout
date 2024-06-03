@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 2.2.3 on 2012-10-19 at 10:37 (EEST)-->
-<!--Last edited by Ukelele version 2.2.4 on 2013-08-15 at 11:08 (GMT+02:00)-->
+<!--Last edited by Ukelele version 396 on 2024-06-03 at 15:33 (GMT+3)-->
 <keyboard group="126" id="-26244" name="Latvian-pounded" maxout="1">
     <layouts>
-        <layout first="0" last="0" modifiers="30" mapSet="138"/>
+        <layout first="0" last="0" mapSet="138" modifiers="30"/>
     </layouts>
     <modifierMap id="30" defaultIndex="8">
         <keyMapSelect mapIndex="0">
@@ -991,7 +991,7 @@
             <key code="47" output="."/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="6"/>
-            <key code="50" output="&#x0027;"/>
+            <key code="50" output="`"/>
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
@@ -1060,48 +1060,6 @@
         <action id="1">
             <when state="none" next="State 2"/>
         </action>
-        <action id="2">
-            <when state="none" next="State 3"/>
-        </action>
-        <action id="3">
-            <when state="none" next="State 4"/>
-        </action>
-        <action id="4">
-            <when state="none" next="State 5"/>
-        </action>
-        <action id="5">
-            <when state="none" next="State 6"/>
-        </action>
-        <action id="6">
-            <when state="none" output=" "/>
-            <when state="State 1" output="&#x0027;"/>
-            <when state="State 2" output="`"/>
-            <when state="State 3" output="∑"/>
-            <when state="State 4" output="¨"/>
-            <when state="State 5" output="ˇ"/>
-            <when state="State 6" output="~"/>
-        </action>
-        <action id="7">
-            <when state="none" output="A"/>
-            <when state="State 1" output="Ā"/>
-            <when state="State 2" output="Á"/>
-            <when state="State 4" output="Ä"/>
-            <when state="State 6" output="Ą"/>
-        </action>
-        <action id="8">
-            <when state="none" output="E"/>
-            <when state="State 1" output="Ē"/>
-            <when state="State 2" output="É"/>
-            <when state="State 4" output="Ė"/>
-            <when state="State 5" output="Ě"/>
-            <when state="State 6" output="Ę"/>
-        </action>
-        <action id="9">
-            <when state="none" output="I"/>
-            <when state="State 1" output="Ī"/>
-            <when state="State 2" output="Í"/>
-            <when state="State 6" output="Į"/>
-        </action>
         <action id="10">
             <when state="none" output="O"/>
             <when state="State 1" output="Ō"/>
@@ -1164,6 +1122,9 @@
             <when state="State 1" output="Ŗ"/>
             <when state="State 2" output="Ŕ"/>
             <when state="State 5" output="Ř"/>
+        </action>
+        <action id="2">
+            <when state="none" next="State 3"/>
         </action>
         <action id="20">
             <when state="none" output="a"/>
@@ -1229,6 +1190,9 @@
             <when state="none" output="y"/>
             <when state="State 2" output="ý"/>
         </action>
+        <action id="3">
+            <when state="none" next="State 4"/>
+        </action>
         <action id="30">
             <when state="none" output="z"/>
             <when state="State 1" output="ž"/>
@@ -1275,6 +1239,9 @@
         <action id="39">
             <when state="none" output="ō"/>
         </action>
+        <action id="4">
+            <when state="none" next="State 5"/>
+        </action>
         <action id="40">
             <when state="none" output="g"/>
             <when state="State 1" output="ģ"/>
@@ -1282,6 +1249,39 @@
         <action id="41">
             <when state="none" output="k"/>
             <when state="State 1" output="ķ"/>
+        </action>
+        <action id="5">
+            <when state="none" next="State 6"/>
+        </action>
+        <action id="6">
+            <when state="none" output=" "/>
+            <when state="State 1" output="&#x0027;"/>
+            <when state="State 2" output="`"/>
+            <when state="State 3" output="∑"/>
+            <when state="State 4" output="¨"/>
+            <when state="State 5" output="ˇ"/>
+            <when state="State 6" output="~"/>
+        </action>
+        <action id="7">
+            <when state="none" output="A"/>
+            <when state="State 1" output="Ā"/>
+            <when state="State 2" output="Á"/>
+            <when state="State 4" output="Ä"/>
+            <when state="State 6" output="Ą"/>
+        </action>
+        <action id="8">
+            <when state="none" output="E"/>
+            <when state="State 1" output="Ē"/>
+            <when state="State 2" output="É"/>
+            <when state="State 4" output="Ė"/>
+            <when state="State 5" output="Ě"/>
+            <when state="State 6" output="Ę"/>
+        </action>
+        <action id="9">
+            <when state="none" output="I"/>
+            <when state="State 1" output="Ī"/>
+            <when state="State 2" output="Í"/>
+            <when state="State 6" output="Į"/>
         </action>
     </actions>
     <terminators>

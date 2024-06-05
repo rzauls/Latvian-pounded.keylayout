@@ -1,7 +1,11 @@
 Latvian keyboard layout for Mac OS X
 ============================================
 
-Default Latvian Mac OS X keyboard layout with the ounly change `£ <=> #`
+Mac OS X Latvian keyboard layout with following changes from default:
+
+    - `£ <=> #` swapped
+    - `Alt/Option + <key>` for special characters
+    - Does not support leader-`'` driven special characters (intentionally)
 
 Instalation
 -----------
